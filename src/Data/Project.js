@@ -5,7 +5,7 @@ const projects = [
     category: "Data Entry",
     description:
       "Convert a PDF file that has several fields and has data that has been filled in to an Excel file that is exactly the same as in the PDF file. This is just a preview. If you'd like to see the complete version, please click the 'Download' button below.",
-    imageUrl: "/Images/PDMI West.png",
+    imageUrl: "/Images/PDMI WEST.png",
     file: "/Docs/PDMI WEST 2021.xlsx",
     fileUrl: "PDMI%20WEST%202021.xlsx",
   },
