@@ -38,8 +38,8 @@ function Home() {
           title="Download CV"
           onClick={() =>
             handleDownload(
-              "/Docs/CV-Shoqibul-Data Entry.pdf",
-              "CV-Shoqibul-Data%20Entry.pdf"
+              "CV-Shoqibul-Data%20Entry.pdf",
+              "/Docs/CV-Shoqibul-Data Entry.pdf"
             )
           }
           type="secondary"
