@@ -7,7 +7,7 @@ import Statistic from "./Statistic";
 
 ChartJS.register(CategoryScale);
 
-const Chart = ({ file }) => {
+const Chart = ({ file, sheet }) => {
   const [data, setData] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState("");
   const [countries, setCountries] = useState([]);
@@ -17,7 +17,7 @@ const Chart = ({ file }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const jsonData = await fetchDataFromExcel(file);
+      const jsonData = await fetchDataFromExcel(file, sheet);
       setData(jsonData);
 
       // Ambil daftar negara dari kolom Country
@@ -31,7 +31,7 @@ const Chart = ({ file }) => {
     };
 
     fetchData();
-  }, [file]);
+  }, [file, sheet]);
 
   useEffect(() => {
     // Filter data berdasarkan negara yang dipilih

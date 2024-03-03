@@ -62,9 +62,9 @@ function ProjectDetail() {
         </Button>
       </div>
       {category === "Data Visualization" ? (
-        <Chart file={file} sheet="Table" />
+        <Chart file={fileUrl} sheet="Table" />
       ) : (
-        <Table className="overflow-x-hidden" file={file} />
+        <Table className="overflow-x-hidden" file={fileUrl} />
       )}
     </div>
   );
