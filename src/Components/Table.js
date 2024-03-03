@@ -6,7 +6,7 @@ function Table({ file }) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const jsonData = await fetchDataFromExcel(file, null);
+      const jsonData = await fetchDataFromExcel(file);
       setExcelData(jsonData);
     };
 
