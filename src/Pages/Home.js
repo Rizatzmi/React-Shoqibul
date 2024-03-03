@@ -39,7 +39,7 @@ function Home() {
           onClick={() =>
             handleDownload(
               "CV-Shoqibul-Data Entry.pdf",
-              "Docs/CV-Shoqibul-Data Entry.pdf"
+              "/Docs/CV-Shoqibul-Data Entry.pdf"
             )
           }
           type="secondary"

@@ -1,5 +1,5 @@
 export const handleDownload = (fileName, filePath) => {
-  const fileUrl = process.env.PUBLIC_URL + "/" + filePath;
+  const fileUrl = process.env.PUBLIC_URL + filePath;
   const link = document.createElement("a");
   link.href = fileUrl;
   link.setAttribute("download", fileName);
