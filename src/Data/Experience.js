@@ -1,6 +1,6 @@
 const experiences = [
   {
-    title: "Quality Control @ Eresources (Jan 2024 - Feb 2024)",
+    title: "Quality Control & Data Entry @ Eresources (Jan 2024 - Feb 2024)",
     impact: [
       "Entered and managed data accurately and efficiently into the company's Admin Panel, ensuring data integrity and completeness.",
       "Conducted quality checks on data entries to identify and reporting errors, maintaining high standards of accuracy and reliability within the company's website and Admin Panel.",
