@@ -16,7 +16,7 @@ const experiences = [
   },
   {
     title:
-      "Database Administration @ PT. Retgoo Sentris Informa (June 2021 - Nov 2021)",
+      "Database Administrator @ PT. Retgoo Sentris Informa (June 2021 - Nov 2021)",
     impact: [
       "Developed and maintained business flow processes, ensuring seamless interaction with clients and resolving any encountered bugs promptly.",
       "Managed PostgreSQL databases effectively, overseeing data storage, retrieval, and security measures to optimize database performance.",
